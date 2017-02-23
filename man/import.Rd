@@ -6,7 +6,15 @@
 \usage{
 import(path)
 }
+\arguments{
+\item{path}{the path of the R file.}
+}
 \description{
 This function allows you to import a R file as a module like in python
 so that its content won't contaminate your working directory.
 }
+\examples{
+import('xxx.R')
+import(xxx.R)
+}
+\keyword{import}
