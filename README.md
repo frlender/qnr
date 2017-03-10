@@ -1,10 +1,10 @@
 # qnr
-###pythonic module import
+###Pythonic module import
 
 This function allows you to import a R file as a module like in python
 so that its content won't contaminate your working environment.
 
-#####examples
+#####Examples
 ```R
 module <- import('xxx.R')
 module <- import(xxx.R)
